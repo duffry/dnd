@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#results {
+    margin-top: 20px;
+}
+
+.boxPlotCell {
+    height: 300px;
+    position: relative;
+    border: 1px solid #ccc;
+}
+
+.whisker, .box, .median, .mean {
+    position: absolute;
+    top: 0;
+    width: 20px;
+}
+
+
+.whisker {
+    background-color: lightgray;
+    height: 5px;
+}
+
+.box {
+    background-color: dodgerblue;
+}
+
+.median, .mean {
+    width: 2px;
+    background-color: red; /* for median */
+}
+
+.mean {
+    background-color: green; /* for mean */
+}
